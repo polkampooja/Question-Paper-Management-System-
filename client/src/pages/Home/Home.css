@@ -1,0 +1,51 @@
+.home{
+  gap:1rem;
+  margin:10px;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.home .image{
+  max-width: 600px;
+  max-height: 900px;
+}
+.home .top{
+  display:flex;
+  gap:1rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  padding: 10px;
+  flex-basis: 1 1 0;
+}
+.home .top .select{
+  flex:120px;
+  width:100%;
+}
+
+.home .select select , .bottom input{
+  border:none;
+  width:100%;
+  text-decoration: none;
+  border-radius: 4px;
+  padding:6px   4px;
+  font-size: 16px;
+  text-align: center;
+  color:#005642;
+}
+
+.home .bottom input{
+  color: white;
+  background-color:#005642;
+  display: flex;
+  text-align: center;
+  justify-content: center ;
+  cursor: pointer;
+  border:none;
+  outline:none;
+  min-width: 140px;
+  padding: 7px;
+}

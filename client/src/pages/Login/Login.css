@@ -1,0 +1,65 @@
+.login{
+  margin-top: 10%;
+  padding: 0px;
+}
+.login .loginCont{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:350px;
+  height:350px;
+  margin:auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: inset;
+}
+.login .loginCont h2{
+  color:#005642;
+}
+.login .loginCont .minilog{
+  display: flex;
+  flex-direction: column;
+}
+.login .loginCont .minilog label{
+  text-align: left;
+  padding: 3px;
+  font-family:'poppins';
+  font-weight: 500;
+  font-size: 16px;
+  color:#005642;
+}
+.login .loginCont .minilog input{
+  padding: 3px;
+  outline: none;
+  margin:5px;
+  background: transparent;
+  border:none;
+  font-size: 19px;
+  color:rgb(31, 30, 30);
+  border-bottom: 1px solid #eee;
+}
+.login .btncontain{
+  display: flex;
+  gap:1rem;
+}
+.login span{
+  color:#005642;
+  margin:20px;
+  font-size: large;
+  font-weight: 500;
+}
+.login .btncontain .buttn{
+  color: white;
+  margin:6px;
+  cursor:pointer;
+  background-color:#005642;
+  border-radius: 5px;
+  font-size: medium;
+  display: flex;
+  right: 0;    
+  width: 120px;
+  text-align: center;
+  justify-content: center ;
+  padding: 8px;
+}

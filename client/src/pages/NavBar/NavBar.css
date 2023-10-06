@@ -1,0 +1,17 @@
+.nav{
+  background-color:#005642;
+  color:#fff;
+  padding:10px;
+}
+.nav .navCont{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  max-width: 80%;
+}
+.nav ul li{
+  padding:10px;
+  text-decoration: none;
+  color:#fff;
+}
